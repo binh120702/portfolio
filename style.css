@@ -62,7 +62,7 @@ a{
 }
 
 .section-2 a{
-    display: block;
+    display: inline-flexbox;
     padding: 5px;
     font-size: 1.2rem;
     padding-left: 0;
@@ -102,3 +102,10 @@ a{
         padding-top: 2rem;
     }
 }
+
+.avatar {
+    width: 200px; /* Adjust the size of the avatar */
+    height: 200px;
+    border-radius: 50%; /* Makes the image round */
+    object-fit: cover; /* Ensures the image fills the container without stretching */
+  }
