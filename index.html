@@ -3,48 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Portfolio of Phan Doan Thai Binh, an AI engineer and computer science student focused on NLP.">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <title>Thai Binh</title>
+    <title>Thai Binh — AI Engineer</title>
 </head>
 <body>
-    <div class="grid-2">
-        <div class="section-1">
-            <img src="ava.jpg" alt="Avatar" class="avatar">
-            <h2>Phan Doan Thai Binh</h2>
-            <p>Ho Chi Minh City, Viet Nam.</p>
-            <a href="https://www.facebook.com/binhbip.bom.33"><i class="fab fa-facebook"></i></a>
-            <a href="https://www.linkedin.com/in/thaibinh120702//"><i class="fab fa-linkedin"></i></a>
-            <a href="https://github.com/binh120702"><i class="fab fa-github"></i></a> 
-        </div>
-        <div class="section-2">
+    <div class="site-shell">
+        <aside class="profile-panel">
+            <div class="profile-topline"><span class="status-dot"></span> Available for interesting problems</div>
+            <div class="profile-content">
+                <img src="ava.jpg" alt="Portrait of Phan Doan Thai Binh" class="avatar">
+                <p class="eyebrow">AI engineer · NLP researcher</p>
+                <h1>Phan Doan<br><em>Thai Binh</em></h1>
+                <p class="location"><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Ho Chi Minh City, Viet Nam</p>
+                <nav class="social-links" aria-label="Social links">
+                    <a href="https://www.facebook.com/binhbip.bom.33" aria-label="Facebook"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+                    <a href="https://www.linkedin.com/in/thaibinh120702/" aria-label="LinkedIn"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+                    <a href="https://github.com/binh120702" aria-label="GitHub"><i class="fab fa-github" aria-hidden="true"></i></a>
+                </nav>
+            </div>
+            <div class="profile-footer"><span>Scroll to explore</span><span class="arrow">↓</span></div>
+        </aside>
 
-            <h2>About</h2>
-            <p>I'm a passionate Computer Science student at UIT-VNUHCM. My journey in the world of technology has been quite diverse, from competitive programming to working as a Java software engineer. </p>
-            <p>However, my true passion lies in Natural Language Processing (NLP), and I aspire to delve deeper into this fascinating field.</p>
-            <p>For more details, reach </details><a href="pi_CV.pdf" style="display:inline;">my resume</a></p>
+        <main class="content">
+            <header class="intro" id="about">
+                <p class="section-kicker">01 / A little context</p>
+                <h2>Building systems that help machines <span>understand language.</span></h2>
+                <div class="intro-grid">
+                    <p class="lead">I’m a Computer Science student at UIT-VNUHCM with a background spanning competitive programming, backend engineering, and applied AI.</p>
+                    <div class="intro-note"><span class="note-mark">↗</span><p>Currently exploring the space where language, knowledge, and useful products meet.</p></div>
+                </div>
+                <a class="resume-link" href="pi_cv.pdf">View my resume <span>↗</span></a>
+            </header>
 
-            <h2>Experience</h2>
-            <p>💻 Former AI Engineer in <a href="https://hirespartan.io/" style="display:inline;">Spartan</a>.</p>
-            <p>💻 Former Java Software Engineer (Backend) in <a href="https://zalopay.vn/" style="display:inline;">Zalopay</a>.</p>
+            <section class="section-block" id="experience">
+                <div class="section-heading"><p class="section-kicker">02 / Experience</p><span>Selected roles</span></div>
+                <div class="timeline">
+                    <article class="timeline-item current"><div class="timeline-marker"></div><div class="timeline-meta"><span>Present</span><span>AI / ML</span></div><div><h3>AI Engineer <a href="https://dataxight.com/">@ DataXight ↗</a></h3><p>Working on practical AI systems and language-focused applications.</p></div></article>
+                    <article class="timeline-item"><div class="timeline-marker"></div><div class="timeline-meta"><span>Past</span><span>AI / ML</span></div><div><h3>AI Engineer <a href="https://hirespartan.io/">@ Spartan ↗</a></h3><p>Built and experimented with applied machine learning workflows.</p></div></article>
+                    <article class="timeline-item"><div class="timeline-marker"></div><div class="timeline-meta"><span>Past</span><span>Backend</span></div><div><h3>Java Software Engineer <a href="https://zalopay.vn/">@ ZaloPay ↗</a></h3><p>Developed backend services in a high-scale fintech environment.</p></div></article>
+                </div>
+            </section>
 
-            <h2>Interests</h2>
-            <p>My primary area of interest is Natural Language Processing (NLP). I'm intrigued by the power of language and how machines can understand and generate human-like text.</p>
-            
-            <h2>Projects</h2>
-            <a href="https://github.com/binh120702/sagri_nested_ner">Scientific Agricutural Nested Named Entity Recognition</a>
-             
-            <!-- <a href="#">Project 3</a>
-            <a href="#">Project 4</a>
-            <a href="#">Project 5</a> -->
-            <h2>Publications</h2>
-            <a style="display:inline;" href="https://dl.acm.org/doi/10.1145/3628797.3628958">SOICT 2023: Domain Adaptation in Nested Named Entity Recognition From Scientific Articles in Agriculture</a> 
-            
-            <h2>Contact</h2>
-            <a href="mailto:thaibinh120702@gmail.com">thaibinh120702@gmail.com</a>
+            <section class="section-block" id="work">
+                <div class="section-heading"><p class="section-kicker">03 / Selected work</p><span>Things I’ve made</span></div>
+                <div class="project-list">
+                    <a class="project-row" href="https://github.com/binh120702/sagri_nested_ner"><span class="project-type">Research / NLP</span><h3>Scientific Agricultural Nested Named Entity Recognition</h3><span class="project-arrow">↗</span></a>
+                    <a class="project-row" href="https://github.com/binh120702/osint-agent"><span class="project-type">Tooling / LLM</span><h3>OSINT Agent</h3><span class="project-arrow">↗</span></a>
+                </div>
+            </section>
 
-        </div>
+            <section class="section-block" id="writing">
+                <div class="section-heading"><p class="section-kicker">04 / Publications</p><span>Research & writing</span></div>
+                <div class="publication-list">
+                    <a class="publication-row" href="https://dl.acm.org/doi/10.1145/3628797.3628958"><span>2023</span><h3>Domain Adaptation in Nested Named Entity Recognition From Scientific Articles in Agriculture</h3><b>↗</b></a>
+                    <a class="publication-row" href="https://suffolklitlab.org/events/ai-for-access-to-justice-at-icail25/"><span>2025</span><h3>Building knowledge graphs from legal documents with LLM-based entity recognition</h3><b>↗</b></a>
+                    <a class="publication-row" href="https://ebooks.iospress.nl/volumearticle/80465"><span>2026</span><h3>Neuro-Symbolic Framework for Domain Specific Knowledge Graph Construction with LLM-Based Entity Recognition</h3><b>↗</b></a>
+                </div>
+            </section>
+
+            <footer class="contact" id="contact"><p class="section-kicker">05 / Say hello</p><h2>Have a problem worth<br><em>thinking about?</em></h2><a class="email-link" href="mailto:thaibinh120702@gmail.com">thaibinh120702@gmail.com <span>↗</span></a><p class="copyright">© 2026 Thai Binh</p></footer>
+        </main>
     </div>
 </body>
 </html>
